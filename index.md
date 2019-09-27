@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## What is VPML? 
+VPML stand for ViewPoint Markup Language, which is a template language designed to declaratively lay out the interface of ViewPoint Web Template.   
 
-You can use the [editor on GitHub](https://github.com/jssum/vpml/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## How it work? 
+VPML files have the extension of .vpml and it mix of standard HTML code and VPML code, eventually transpile into HTML file. This make comfortable immediately to anyone who has spent time working with HTML or XML. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Getting Started 
+You can simply create a plaintext file with vpml extension, example, demo.vpml.   
 
-### Markdown
+# VPML Syntax  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Root Element – vp:Application 
+A VPML file must have only one root element - vp:Application, in order to be both a well-formed XML file and a valid VPML file. The following example shows the root element of a typical VPML file. 
+```html
+<vp:Application xmlns:vp="http://www.goviewpoint.com/2018/vpml" countryCode="EN" formCode='demo2' formCat='6' formType='WT' langCode='ENG' description="VPML template"  >
+...
+</vp:Application>
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jssum/vpml/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
